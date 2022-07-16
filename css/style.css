@@ -1,0 +1,258 @@
+/* font-family: 'Merriweather', serif;
+
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Sacramento', cursive;
+
+font-family: 'Nuosu SIL', serif; */
+
+body {
+  margin: 0px;
+  font-family: 'Nuosu SIL', serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 150px auto 0 auto;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color: black #424874;
+}
+
+h2 {
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #424874;
+}
+
+h3 {
+  color: #557B83;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+
+}
+
+hr {
+  border-top: dotted;
+  border-top-width: 10px;
+  border-bottom: none;
+  color: #EAF6F6;
+  margin: 100px auto 100px auto;
+  width: 80px;
+}
+
+.anchor {
+    color: #DCD6F7;
+    margin: 50px auto 50px auto;
+}
+
+.bolt {
+  font-weight: bold;
+}
+
+.bottom-container {
+  background-color: #424874;
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bottom-container .text {
+    /* margin-bottom: 50px; */
+    color: white;
+    margin: 50px auto 0 auto;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  border: solid #424874 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #424874;
+  text-decoration: none;
+}
+
+.credits {
+  color: #EAF6F6;
+}
+
+.contact-top {
+  background-color: #424874;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  margin-top: 175px;
+  padding-top: 25px;
+}
+
+.contact-top .text {
+  text-align: left;
+  color: #F4EEFF;
+  margin-left: 33%;
+
+}
+
+.contact-me .margin-bottom {
+  margin-bottom: 40px;
+}
+
+.header {
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    color: #424874;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: auto 40px auto 40px;
+}
+
+.img_skill1 {
+  float: left;
+  height: 100px;
+  margin-left: 30px;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.img_skill2 {
+  float: right;
+  height: 100px;
+  margin-left: 30px;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.img_profile {
+  height: 200px;
+  margin: 80px auto 50px auto;
+  vertical-align: middle;
+  width: 200px;
+}
+
+
+.middle-container {
+    position: relative;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* top: 100vh; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.middle-container .h3 {
+  color: black;
+}
+
+.middle-container .p-text {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.middle-container .p-skills {
+  color: #4B7BE5;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.middle-container .less-margin {
+  margin-bottom: 6px;
+}
+
+.middle-container .ul {
+  padding-left: 0;
+  list-style: none;
+  line-height: 2;
+}
+
+.skill-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.text_bild {
+  color: white;
+  font-size: 10px;
+}
+
+.text_middlecontainer {
+  margin-bottom: 50px;
+}
+
+.main-img {
+  position: relative;
+  left: 0;
+  height: 100%;
+  width: auto;
+}
+
+.top_container {
+  background-color: #DCD6F7;
+  /* height: auto; */
+  margin: 0px;
+  /* padding-top: 100px; */
+  display: grid;
+  grid-template-columns: 0.65fr 1fr;
+  /* grid-gap: 20px; */
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* top: 50px; */
+  width: 100%;
+}
+
+.top-left-container {
+  /* float: left; */
+  /* width: 50%; */
+  height: auto;
+  background-color: #424874;
+  top: 0;
+}
+
+.top-right-container {
+  /* display: block; */
+  /* width:50%; */
+  /* float: left; */
+  height: auto;
+  /* padding-top: 25px; */
+}
+
+.text_topcontainer {
+  font-size: 25px;
+}
+
+.skill-row {
+
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  width: 60%;
+}
+
+
+#main-header {
+  position: relative;
+  top: 0;
+  color: black;
+  background-color: #F4EEFF;
+  /* display: inline; */
+  width: 100%;
+  height: 50px;
+  /* right: 25% */
+
+}
